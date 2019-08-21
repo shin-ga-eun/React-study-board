@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+/*
+메소드 정리
+handleRemove: 삭제버튼이 onClick되면 현재 컴포넌트의 handleRemove에서 부모의 onRemove로 해당 행의 brdno를 전달한다.
+handleSelectRow: 게시글이 선택되면(onClick되면) 현재 컴포넌트의 handleSelectRow에서 부모의 onSelectRow로 해당 행의 내용(row)를 전달한다.
+
+*/
 
 class BoardRow extends Component {
     //게시판 삭제
