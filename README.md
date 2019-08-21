@@ -1,7 +1,8 @@
 ## simple board(CRUD) examples for React ##
-
-This example is web boards focusing on data input / output for easy understanding of React.
-
+리액트로만 구현했기 때문에 만약 게시판의 글을 수정하는 경우에,
+사용자가 선택한 행을 부모에게 알리고, 부모가 다시 BoardForm(입력상자)으로 전송하는 방식으로 구현하였다.
+사용자가 입력을 완료하고 저장하면, 다시 입력한 내용을 부모에게 전송해서 부모의 state 변수에 저장하는 방식으로 구현하였다.
+따라서 컴포넌트 수정마다 부모를 다시 거쳐서 값이 전달되어야 한다.
 
 ### Files ###
 
@@ -12,11 +13,7 @@ This example is web boards focusing on data input / output for easy understandin
 
 
 <출처>
-### Other Examples ###
-- [react_board](https://github.com/gujc71/react_board): this
-- [redux_board](https://github.com/gujc71/redux_board): simple board(CRUD) examples for React + Redux
-- [react_firestore](https://github.com/gujc71/react_firestore): simple board(CRUD) examples for React(Redux) + Firestore
-- [firebaseExample](https://github.com/gujc71/firebaseExample): simple board(CRUD) examples for Node.js(express): + Firestore
+ https://forest71.tistory.com/184?category=683254 [SW 개발이 좋은 사람]
 
 
   
