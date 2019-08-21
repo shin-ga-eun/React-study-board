@@ -29,13 +29,13 @@ class Board extends Component {
             {
                 brdno: 1,
                 brdwriter: '신가은',
-                brdtitle: 'If you intend to live then you die',
+                brdtitle: '나는 킹갓가은이지.',
                 brddate: new Date()
             },
             {
                 brdno: 2,
                 brdwriter: '김성종',
-                brdtitle: 'Founder for two countries',
+                brdtitle: '성종이는 멍청이야.',
                 brddate: new Date()
             }
         ],
