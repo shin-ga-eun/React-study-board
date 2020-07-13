@@ -11,9 +11,11 @@
 - BoardForm.js: component files
 - BoardItem.js: component files
 
+#### 각 메소드 설명은 파일 별 주석처리함
 
-<출처>
- https://forest71.tistory.com/184?category=683254 [SW 개발이 좋은 사람]
+
+### 참고
+📕 https://forest71.tistory.com/184?category=683254 [SW 개발이 좋은 사람]
 
 
   
